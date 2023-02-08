@@ -25,7 +25,7 @@ const saveChangesBtn = document.querySelector('.saveDetails');
 
 FORM.addEventListener('submit', printDetails);
 
-// window.addEventListener('DOMContentLoaded', fetchDetails);
+window.addEventListener('DOMContentLoaded', fetchDetails);
 
 users.addEventListener('click', (e) => {
   if (e.target.classList.contains('delete')) 
